@@ -1,0 +1,8 @@
+# Target file that will be modified in iteration 2
+# This file exists in the base but is NOT modified in iteration 1
+
+name: 'Target Configuration'
+version: '1.0.0'
+settings:
+  enabled: true
+  debug: false
