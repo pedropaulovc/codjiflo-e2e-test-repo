@@ -23,7 +23,7 @@ jobs:
 
       - name: Capture PR iteration
         id: capture
-        uses: codjiflo/action@main
+        uses: pedropaulovc/codjiflo-action@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           pr-number: ${{ env.PR_NUMBER }}
