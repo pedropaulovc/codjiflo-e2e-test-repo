@@ -1,5 +1,0 @@
-name: 'Test Action'
-description: 'A test action for E2E testing'
-runs:
-  using: 'node16'
-  main: 'index.js'
