@@ -1,9 +1,9 @@
 // Search Panel Split Focus Demo
 // This file demonstrates the (Left)/(Right) indicator feature
 
-function originalFunction() {
-  // This is the ORIGINAL implementation
-  return "ORIGINAL value from the LEFT side";
+function modifiedFunction() {
+  // This is the MODIFIED implementation
+  return "MODIFIED value from the RIGHT side";
 }
 
 function helperFunction() {
@@ -11,4 +11,4 @@ function helperFunction() {
   return 42;
 }
 
-const ORIGINAL_CONSTANT = "This only appears on the LEFT";
+const MODIFIED_CONSTANT = "This only appears on the RIGHT";
